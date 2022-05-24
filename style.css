@@ -395,9 +395,21 @@ header{
 }
 
 @media(max-width: 1080px){
+    /* nav bar section */
+    .header-title {
+        width: 230px;
+        font-size: 40px;
+        padding-left: 75px;
+    }
+    .logo-header {
+        width: 40px;
+        top: 32px;
+        left: 20px;
+    }
+
     /* about section */
     #about{
-        padding-top: 75px;
+        padding-top: 200px;
         height: 60vh;
     }
     .about-header-wrapper{
@@ -416,26 +428,35 @@ header{
         line-height: 40px;
         padding: 30px;
     }
+    #about .left{
+        width: 60%;
+    }
+    #about .right{
+        width: 40%;
+    }
     .right-img{
-        width: 500px;
+        width: 375px;
         transform: scaleX(-1);
         border-radius: 0px 50px 50px 0px;
     }
     
     /* start section */
     #start{
-        padding-top: 75px;
+        padding-top: 185px;
     }
     .start-header-shadow {
-        left: 60px;
-        top: -34px;
+        left: 75px;
+        top: -25px;
+        font-size: 65px;
     }
     .top-start-text {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 45px;
+        text-align: center;
     }
     .top-start-text img{
-        margin-bottom: 30px;
+        margin: 0px auto;
+        margin-bottom: 25px;
     }
     
     /* gallery section */
@@ -447,22 +468,22 @@ header{
         width: 100%;
     }
     .gallery-header-shadow {
-        left: 170px;
-        top: -60px;
+        left: 100px;
+        top: -65px;
         font-size: 100px;
     }
     .gallery-header {
-        font-size: 85px;
+        font-size: 75px;
     }
     .side-cars {
-        left: 335px;
+        left: 315px;
         top: 20px;
     }
     .side-cars .left-car{
-        width: 200px;
+        width: 150px;
     }
     .side-cars .right-car{
-        width: 200px;
+        width: 150px;
     }
 
     /* images section */
@@ -473,6 +494,6 @@ header{
     }
     .gallery-wrapper .gallery-item {
         width: 47%;
-        height: 350px;
+        height: 300px;
     }
 }
