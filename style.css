@@ -394,6 +394,71 @@ header{
     }
 }
 
+@media(max-width: 1200px){
+    /* about section */
+    #about{
+        padding-top: 100px;
+    }
+    .about-header-shadow {
+        left: 130px;
+        top: -45px;
+    }
+    .about-text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    #about .left{
+        width: 60%;
+    }
+    #about .right{
+        width: 40%;
+    }
+    .right-img{
+        width: 470px;
+        transform: scaleX(-1);
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    /* start section */
+    #start{
+        padding-top: 75px;
+    }
+    .start-header-shadow {
+        left: 85px;
+        top: -30px;
+        font-size: 70px;
+    }
+    .top-start-text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .top-start-text img {
+        width: 475px;
+    }
+
+    /* gallery section */
+    #gallery{
+        padding-top: 300px;
+    }
+    .gallery-header-shadow {
+        left: 200px;
+        top: -67px;
+    }
+    .gallery-header {
+        font-size: 85px;
+    }
+    .side-cars {
+        left: 335px;
+        top: 15px;
+    }
+    .side-cars .left-car{
+        width: 250px;
+    }
+    .side-cars .right-car{
+        width: 250px;
+    }
+}
+
 @media(max-width: 1080px){
     /* nav bar section */
     .header-title {
